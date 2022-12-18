@@ -10,6 +10,7 @@ app.use('*', (req, res, next) => {
     next()
 });
 
+app.use('/api/admin', require('./routes/admin'));
 
 app.use('*',(req,res,next)=>{
     res.status(400).json({"status":"fail","message":`Cant find ${req.orginalUrl} in this server !! `})
