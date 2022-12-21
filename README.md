@@ -14,7 +14,6 @@ Here they can filter the points awarded to the user based on the action or date 
 
 **common setup** 
 npm install - to install  the project dependency
-node index.js - to start the project 
 
 
 
