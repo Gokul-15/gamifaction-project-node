@@ -13,4 +13,4 @@ Then on clicking a single items they would like to see more information about th
 Here they can filter the points awarded to the user based on the action or date range or the point range.
 
 **common setup** 
-npm install to start the project 
+npm install - to start the project 
